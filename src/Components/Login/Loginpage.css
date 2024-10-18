@@ -1,0 +1,77 @@
+/* General styling for the login page container */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f4f4f9;
+  padding: 20px;
+}
+
+/* Styling for the heading */
+.login-page h1 {
+  font-family: 'Arial', sans-serif;
+  color: rgb(12, 72, 12);
+  margin-bottom: 20px;
+}
+
+/* Styling for the form */
+.login-page form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Styling for form elements */
+.login-page label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 8px;
+  color: #666;
+}
+
+.login-page input[type="text"],
+.login-page input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.login-page button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-page button:hover {
+  background-color: #0056b3;
+}
+
+/* Styling for the link to create a new account */
+.login-page p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 15px;
+}
+
+.login-page a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-page a:hover {
+  text-decoration: underline;
+}

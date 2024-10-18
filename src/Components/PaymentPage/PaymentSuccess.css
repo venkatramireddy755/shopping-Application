@@ -1,0 +1,53 @@
+/* PaymentSuccess.css */
+
+.payment-success {
+    font-family: 'Arial', sans-serif;
+    background-color: white; /* You might want to adjust this if you don't want it for other pages */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .payment-success h1 {
+    color: #4CAF50; /* Green color for success */
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .payment-success p {
+    color: #333; /* Darker text for better readability */
+    font-size: 1.2em;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .payment-success .link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  
+  .payment-success .link {
+    background-color: #4CAF50; /* Button color */
+    color: white;
+    border-width: 0px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-success .link:hover {
+    background-color: #45a049; /* Darker shade on hover */
+  }
+  
+  .payment-success .container {
+    max-width: 600px; /* Centering the content */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  

@@ -1,0 +1,102 @@
+/* Container for the checkout form */
+.checkout-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .checkout-container h3{
+    /* Total amount styling */
+
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  
+
+  }
+  
+  /* Form Title */
+  .checkout-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Form styling */
+  .checkout-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkout-form label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .checkout-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the Place Order button */
+  .checkout-form button {
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .checkout-form button:hover {
+    background-color: #218838;
+  }
+  
+  /* Add responsive design */
+  @media (max-width: 768px) {
+    .checkout-container {
+      padding: 15px;
+    }
+  
+    .checkout-form input {
+      font-size: 14px;
+    }
+  
+    .checkout-form button {
+      font-size: 14px;
+    }
+  }
+  
+  /* Success message styling */
+.success-message {
+    text-align: center;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px;
+    border: 1px solid #c3e6cb;
+    border-radius: 10px;
+  }
+  
+  .success-message h1 {
+    margin-bottom: 10px;
+  }
+  
+  .success-message p {
+    font-size: 18px;
+  }
+  
