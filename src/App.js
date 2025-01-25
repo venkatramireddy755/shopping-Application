@@ -22,6 +22,7 @@ const App=()=>{
   return(
     <div>
       <Navbar/>
+      <HomePage/>
       <div className='body'>
       <Routes>
         <Route path='/' element={<HomePage/>}/>
