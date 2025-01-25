@@ -39,7 +39,7 @@ const Navbar = () => {
     <div>
       <div className="navbar">
         <div className="logo">
-          <h2>E-Comm-Massive</h2>
+          <h2>E-Com-Massive</h2>
         </div>
         <div className="link">
           <ul>
@@ -69,7 +69,7 @@ const Navbar = () => {
           <div className="nav_user">
             {username ? (
               <>
-                <span className="nav_username">Hlo,{username}</span>
+                <span className="nav_username">Hi,{username}</span>
                 <button onClick={handleLogout}>Logout</button>
               </>
             ) : (

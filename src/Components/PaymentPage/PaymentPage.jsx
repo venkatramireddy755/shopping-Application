@@ -42,7 +42,7 @@ const PaymentPage = () => {
 
   return (
     <div style={styles.container}>
-      <img src="logo cropped.png" alt="company logo" width="200px" />
+      
       <h1>Stripe Payment</h1>
       <p>Click below to proceed with payment.</p>
      

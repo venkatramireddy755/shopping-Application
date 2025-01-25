@@ -14,7 +14,8 @@
     margin-left: 10px;
 
 }
-.copy{
+.copy p{
    text-align: center;
-   padding: 15px; 
+   padding: 5px; 
+   color: white;
 }

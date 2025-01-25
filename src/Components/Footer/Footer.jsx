@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer_content">
            <div className="footer_name">
-            <h2>E-Comm-Messive</h2>
+            <h2>E-Com-Massive</h2>
             </div> 
             <div className="footer_socials">
                 <FaFacebook className="footer_icon"/>
@@ -17,7 +17,10 @@ const Footer = () => {
             </div>
         </div>
         <div className="copy">
-        <p>Copyright E-comm-Messive 2024. all rights reserved </p>
+        <p>6302725154</p>
+        <p>E-com massive@gmail.com</p>
+        <p>Copyright E-com-Messive 2024. all rights reserved </p>
+
       </div>   
       </div>
       

@@ -31,7 +31,9 @@ const PaymentFailed = () => {
         <h1>Payment Failed</h1>
         <p>Unfortunately, your payment could not be processed.</p>
         <div className="link-container">
-          <button onClick={handleRetryPayment} className="link">Try Again</button>
+          
+          <button onClick={handleRetryPayment} className="link">try again</button>
+         
         </div>
       </div>
     </div>

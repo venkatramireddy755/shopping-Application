@@ -15,6 +15,9 @@ import PaymentFailed from './Components/PaymentPage/PaymentFaild';
 import PaymentSuccess from './Components/PaymentPage/PaymentSuccess';
 import ProductList from './Components/ProductList/ProductList';
 import WomenProductList from './Components/ProductList/WomenProductList';
+
+import ContactUs from './Components/Contact/ContactUs'
+
 const App=()=>{
   return(
     <div>
@@ -28,7 +31,7 @@ const App=()=>{
         <Route path="/checkout" element={<CheckoutPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/new-account" element={<NewAccountPage />} />
-        <Route path='/contact-us' element={<Footer/>}/>
+        <Route path='/contact-us' element={<ContactUs/>}/>
         <Route path='/create-checkout-session' element={<PaymentPage/>}/>
         <Route path="/payment-success" element={<PaymentSuccess />} />
         <Route path="/payment-failed" element={<PaymentFailed />} />
